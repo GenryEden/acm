@@ -1,0 +1,8 @@
+{"type":"session","version":3,"id":"0192aaaa-0000-7000-8000-000000000001","timestamp":"2026-01-01T10:00:00.000Z","cwd":"/Users/test/project"}
+{"type":"model_change","id":"mc1","parentId":null,"timestamp":"2026-01-01T10:00:00.100Z","from":"model-a","to":"model-b"}
+{"type":"message","id":"r1","parentId":null,"timestamp":"2026-01-01T10:00:01.000Z","message":{"role":"system","content":[{"type":"text","text":"You are a helpful assistant."}],"timestamp":1767266401000}}
+{"type":"message","id":"r2","parentId":"r1","timestamp":"2026-01-01T10:00:02.000Z","message":{"role":"user","content":[{"type":"text","text":"Please read src/app.ts"}],"timestamp":1767266402000}}
+{"type":"message","id":"r3","parentId":"r2","timestamp":"2026-01-01T10:00:03.000Z","message":{"role":"assistant","content":[{"type":"thinking","thinking":"The user wants me to read the file."},{"type":"text","text":"Reading the file now."},{"type":"toolCall","id":"call_abc123","name":"read","arguments":{"path":"src/app.ts"}}],"timestamp":1767266403000}}
+{"type":"message","id":"r4","parentId":"r3","timestamp":"2026-01-01T10:00:04.000Z","message":{"role":"toolResult","toolCallId":"call_abc123","toolName":"read","content":[{"type":"text","text":"export function main() {\n  console.log(\"hello\");\n}"}],"isError":false,"durationMs":12,"timestamp":1767266404000}}
+{"type":"message","id":"r5","parentId":"r4","timestamp":"2026-01-01T10:00:05.000Z","message":{"role":"assistant","content":[{"type":"text","text":"The file looks good. It exports a main function."}],"timestamp":1767266405000}}
+{"type":"user_aborted","id":"r6","parentId":"r5","timestamp":"2026-01-01T10:00:06.000Z"}

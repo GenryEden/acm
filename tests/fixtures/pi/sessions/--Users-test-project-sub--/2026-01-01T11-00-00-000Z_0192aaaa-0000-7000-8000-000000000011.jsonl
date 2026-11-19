@@ -1,0 +1,3 @@
+{"type":"session","version":3,"id":"0192aaaa-0000-7000-8000-000000000011","timestamp":"2026-01-01T11:00:00.000Z","cwd":"/Users/test/project/sub"}
+{"type":"message","id":"s1","parentId":null,"timestamp":"2026-01-01T11:00:01.000Z","message":{"role":"user","content":[{"type":"text","text":"Nested project chat"}],"timestamp":1767267601000}}
+{"type":"message","id":"s2","parentId":"s1","timestamp":"2026-01-01T11:00:02.000Z","message":{"role":"assistant","content":[{"type":"text","text":"Hello from the nested project."}],"timestamp":1767267602000}}

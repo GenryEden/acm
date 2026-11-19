@@ -1,0 +1,2 @@
+{"type":"session","version":3,"id":"0192aaaa-0000-7000-8000-000000000013","timestamp":"2026-01-01T13:00:00.000Z"}
+{"type":"message","id":"u1","parentId":null,"timestamp":"2026-01-01T13:00:01.000Z","message":{"role":"user","content":[{"type":"text","text":"Chat with no recorded cwd"}],"timestamp":1767270001000}}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 440" role="img" aria-labelledby="title desc">
+  <title id="title">Switch agents. Keep the conversation.</title>
+  <desc id="desc">Agent Chat Migration moves an OpenCode conversation into Codex as a native session. Pi, OpenCode and Codex are supported in both directions.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#101c28"/>
+      <stop offset="1" stop-color="#091018"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#253c49" stroke-opacity=".42"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1098" height="438" rx="24" fill="url(#bg)" stroke="#2b4553" stroke-width="2"/>
+  <path d="M640 2h435a23 23 0 0 1 23 23v390a23 23 0 0 1-23 23H640z" fill="url(#grid)"/>
+  <g font-family="ui-monospace, Menlo, Consolas, monospace">
+    <rect x="54" y="54" width="58" height="34" rx="7" fill="#8cf0c6"/>
+    <text x="83" y="77" fill="#102820" text-anchor="middle" font-size="18" font-weight="700">acm</text>
+    <text x="127" y="76" fill="#a8c1ca" font-size="15" letter-spacing="1.2">AGENT CHAT MIGRATION</text>
+    <text x="56" y="377" fill="#8cf0c6" font-size="21">Pi  /  OpenCode  /  Codex</text>
+  </g>
+  <g fill="#f0f7f9" font-family="system-ui, sans-serif" font-weight="750" font-size="61" letter-spacing="-2.4">
+    <text x="52" y="178">Switch agents.</text>
+    <text x="52" y="246">Keep the</text>
+    <text x="52" y="314">conversation.</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, Consolas, monospace">
+    <rect x="643" y="55" width="400" height="124" rx="15" fill="#14232f" stroke="#3c5a68"/>
+    <circle cx="674" cy="87" r="5" fill="#8cf0c6"/>
+    <text x="693" y="93" fill="#ecf4f7" font-size="21" font-weight="700">OpenCode</text>
+    <text x="1009" y="92" fill="#aec4ce" font-size="14" text-anchor="end">SOURCE SESSION</text>
+    <path d="M669 116h348" stroke="#344d5a"/>
+    <text x="669" y="150" fill="#cadbe1" font-size="17">Messages + tool history</text>
+    <path d="M843 179v70m-7-7 7 7 7-7" fill="none" stroke="#8cf0c6" stroke-width="2"/>
+    <rect x="776" y="197" width="134" height="30" rx="15" fill="#17352f" stroke="#407863"/>
+    <text x="843" y="217" fill="#a7f6d6" font-size="15" text-anchor="middle">acm transfer</text>
+    <rect x="643" y="261" width="400" height="124" rx="15" fill="#14232f" stroke="#62aa91"/>
+    <circle cx="674" cy="293" r="5" fill="#8cf0c6"/>
+    <text x="693" y="299" fill="#ecf4f7" font-size="21" font-weight="700">Codex</text>
+    <text x="1009" y="298" fill="#a7f6d6" font-size="14" text-anchor="end">NATIVE SESSION</text>
+    <path d="M669 322h348" stroke="#344d5a"/>
+    <text x="669" y="356" fill="#cadbe1" font-size="17">Messages + tool history</text>
+  </g>
+</svg>

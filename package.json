@@ -1,0 +1,35 @@
+{
+  "name": "agent-chat-migration",
+  "version": "0.1.0",
+  "description": "Transfer chat sessions between AI coding agents (opencode, pi, codex) with full history",
+  "type": "module",
+  "bin": {
+    "acm": "bin/acm.mjs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev": "tsx src/index.ts",
+    "acm": "tsx src/index.ts"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "tsx": "^4.19.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.0",
+    "vitest": "^5.1.0"
+  },
+  "files": [
+    "bin/acm.mjs",
+    "src/**/*.ts",
+    "docs/acm-hero.svg",
+    "tsconfig.json"
+  ]
+}

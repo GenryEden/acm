@@ -1,0 +1,2 @@
+{"timestamp":"2026-01-02T12:00:00.000Z","type":"session_meta","payload":{"id":"0192cccc-0000-7000-8000-000000000015","session_id":"0192cccc-0000-7000-8000-000000000015","timestamp":"2026-01-02T12:00:00.000Z","originator":"codex_cli_rs","cli_version":"0.20.0","source":"cli","thread_source":"user","model_provider":"openai","instructions":null,"git":{"repository_url":null}}}
+{"timestamp":"2026-01-02T12:00:01.000Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"Chat with no recorded cwd"}]}}
